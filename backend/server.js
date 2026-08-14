@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const config = require('./config/env');
 const analyzeRoutes = require('./routes/analyzeRoutes');
+const settingsRoutes = require('./routes/settingsRoutes');
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/api/analyze', analyzeRoutes);
+app.use('/api/settings', settingsRoutes);
 
 // Error Handling Middleware
 app.use((err, req, res, next) => {

@@ -1,0 +1,490 @@
+/* ─── Classic Template ─── */
+.classicContainer {
+  color: #18181b;
+  line-height: 1.5;
+  padding: 2.5rem;
+  background: #ffffff;
+  min-height: 297mm;
+  box-sizing: border-box;
+}
+
+.classicHeader {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.classicName {
+  margin: 0 0 0.25rem;
+  font-size: 2.2em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #09090b;
+}
+
+.classicContactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 0.85em;
+  color: #52525b;
+}
+
+.classicSection {
+  margin-bottom: 1.5rem;
+}
+
+.classicSectionTitle {
+  font-size: 1.05em;
+  font-weight: 700;
+  border-bottom: 1px solid #e4e4e7;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #09090b;
+}
+
+.classicText {
+  margin: 0;
+  font-size: 0.95em;
+  color: #27272a;
+}
+
+.classicList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.classicListItemHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 0.95em;
+  color: #09090b;
+}
+
+.classicListItemDate {
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #71717a;
+}
+
+.classicListItemSub {
+  font-size: 0.9em;
+  color: #52525b;
+  font-style: italic;
+  margin-bottom: 0.35rem;
+}
+
+.classicBullets {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.classicBullet {
+  font-size: 0.925em;
+  color: #27272a;
+}
+
+.classicSkillsText {
+  margin: 0;
+  font-size: 0.925em;
+  color: #27272a;
+  line-height: 1.6;
+}
+
+/* ─── Modern Sidebar Template ─── */
+.modernContainer {
+  color: #27272a;
+  line-height: 1.5;
+  background: #ffffff;
+  min-height: 297mm;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.modernSidebar {
+  background: #f4f4f5;
+  padding: 2.5rem 1.5rem;
+  border-right: 1px solid #e4e4e7;
+}
+
+.modernName {
+  margin: 0 0 1.25rem;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #09090b;
+  line-height: 1.1;
+}
+
+.modernContactGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  font-size: 0.8em;
+  color: #52525b;
+  word-break: break-word;
+  margin-bottom: 2rem;
+}
+
+.modernSidebarTitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  color: #18181b;
+  margin-bottom: 0.15rem;
+  letter-spacing: 0.04em;
+}
+
+.modernSkillsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.modernSkillBadge {
+  font-size: 0.825em;
+  color: #27272a;
+  background: #e4e4e7;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.modernMain {
+  padding: 2.5rem 2rem;
+}
+
+.modernSection {
+  margin-bottom: 1.75rem;
+}
+
+.modernSectionTitle {
+  font-size: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #18181b;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.modernText {
+  margin: 0;
+  font-size: 0.9em;
+  color: #3f3f46;
+}
+
+.modernList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.modernListItemHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #09090b;
+}
+
+.modernListItemDate {
+  font-weight: 500;
+  font-size: 0.85em;
+  color: #71717a;
+}
+
+.modernListItemSub {
+  font-size: 0.85em;
+  color: #52525b;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+.modernBullets {
+  margin: 0;
+  padding-left: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.modernBullet {
+  font-size: 0.875em;
+  color: #3f3f46;
+}
+
+/* ─── Minimalist Template ─── */
+.minimalistContainer {
+  color: #333333;
+  line-height: 1.6;
+  padding: 3rem 4rem;
+  background: #ffffff;
+  min-height: 297mm;
+  box-sizing: border-box;
+}
+
+.minimalistHeader {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.minimalistName {
+  margin: 0 0 0.5rem;
+  font-size: 2.5em;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.minimalistContactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.85em;
+  color: #666666;
+}
+
+.minimalistSection {
+  margin-bottom: 2rem;
+}
+
+.minimalistSectionTitle {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.minimalistText {
+  margin: 0;
+  font-size: 0.95em;
+  color: #444444;
+}
+
+.minimalistList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.minimalistListItemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 600;
+  font-size: 1em;
+  color: #222222;
+}
+
+.minimalistListItemDate {
+  font-weight: 400;
+  font-size: 0.85em;
+  color: #888888;
+}
+
+.minimalistListItemSub {
+  font-size: 0.9em;
+  color: #555555;
+  margin-bottom: 0.5rem;
+}
+
+.minimalistBullets {
+  margin: 0;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  list-style-type: square;
+}
+
+.minimalistBullet {
+  font-size: 0.9em;
+  color: #444444;
+}
+
+/* ─── Professional Template ─── */
+.professionalContainer {
+  color: #222222;
+  line-height: 1.4;
+  padding: 2.5rem;
+  background: #ffffff;
+  min-height: 297mm;
+  box-sizing: border-box;
+}
+
+.professionalHeader {
+  text-align: center;
+  border-bottom: 2px solid #222222;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.professionalName {
+  margin: 0 0 0.25rem;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #111111;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.professionalContactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.9em;
+  color: #444444;
+}
+
+.professionalSection {
+  margin-bottom: 1.25rem;
+}
+
+.professionalSectionTitle {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #111111;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.professionalText {
+  margin: 0;
+  font-size: 0.95em;
+  color: #333333;
+}
+
+.professionalList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.professionalListItemHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1em;
+  color: #222222;
+}
+
+.professionalListItemDate {
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #444444;
+}
+
+.professionalListItemSub {
+  font-size: 0.95em;
+  font-style: italic;
+  color: #333333;
+  margin-bottom: 0.25rem;
+}
+
+.professionalBullets {
+  margin: 0;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.professionalBullet {
+  font-size: 0.9em;
+  color: #333333;
+}
+
+/* ─── One Pager Template ─── */
+.onePagerContainer {
+  color: #000;
+  line-height: 1.25;
+  padding: 1.5rem;
+  background: #ffffff;
+  min-height: 297mm;
+  box-sizing: border-box;
+}
+.onePagerHeader {
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+}
+.onePagerName {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.onePagerContactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.8em;
+}
+.onePagerContent {
+  display: flex;
+  gap: 1.5rem;
+}
+.onePagerMain {
+  flex: 2;
+}
+.onePagerSidebar {
+  flex: 1;
+}
+.onePagerSectionTitle {
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.2rem;
+  color: #000;
+}
+.onePagerText {
+  margin: 0 0 1rem 0;
+  font-size: 0.85em;
+  text-align: justify;
+}
+.onePagerItem {
+  margin-bottom: 0.75rem;
+}
+.onePagerItemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.9em;
+}
+.onePagerRole {
+  font-weight: 700;
+}
+.onePagerDate {
+  font-size: 0.85em;
+  color: #555;
+  white-space: nowrap;
+}
+.onePagerCompany {
+  font-size: 0.85em;
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+.onePagerBullets {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.onePagerBullet {
+  font-size: 0.85em;
+  margin-bottom: 0.15rem;
+}

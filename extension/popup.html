@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ResumeAnalyzer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>ResumeAnalyzer Helper</h2>
+    </div>
+    
+    <div class="content">
+      <p>Quick access tools to boost your resume building process.</p>
+      
+      <div class="upload-zone" id="uploadZone">
+        <input type="file" id="resumeFile" accept=".pdf,.docx" class="file-input" />
+        <label for="resumeFile" class="file-label">
+          <div class="upload-icon">📄</div>
+          <div class="upload-text">Upload Resume (PDF/DOCX)</div>
+          <div class="upload-subtext" id="fileName">No file selected</div>
+        </label>
+      </div>
+      
+      <div class="actions" id="actionButtons">
+        <button id="extractBtn" class="btn primary">Extract Page & Analyze</button>
+        <button id="openAppBtn" class="btn secondary">Open ResumeAnalyzer</button>
+      </div>
+      
+      <!-- New Score Results Container -->
+      <div id="scoreContainer" class="score-container hidden">
+        <div class="score-header">Match Score</div>
+        <div class="score-circle">
+          <span id="scoreValue">--</span>
+          <span class="score-total">/100</span>
+        </div>
+        <div id="scoreVerdict" class="score-verdict">--</div>
+        <button id="viewDetailsBtn" class="btn primary mt-3">View Full Details</button>
+      </div>
+      
+      <div id="status" class="status-msg hidden"></div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
